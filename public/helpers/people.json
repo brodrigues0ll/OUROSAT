@@ -1,0 +1,42 @@
+[
+  {
+    "id": "5e8cdba1-3124-4e5b-9b64-99f408ce0fb2",
+    "name": "João",
+    "lastname": "Silva",
+    "date": "2023-02-10",
+    "price": 250.5,
+    "photo": "https://aniyuki.com/wp-content/uploads/2021/12/aniyuki-sad-anime-avatar-image-32.jpg"
+  },
+  {
+    "id": "01b6e1f5-248a-4d35-bb70-0f63b10a44c8",
+    "name": "Maria",
+    "lastname": "Santos",
+    "date": "2023-07-15",
+    "price": 450.75,
+    "photo": "https://aniyuki.com/wp-content/uploads/2021/12/aniyuki-sad-anime-avatar-image-32.jpg"
+  },
+  {
+    "id": "682f6543-b684-4780-91a2-2f06a1e0d308",
+    "name": "Pedro",
+    "lastname": "Ferreira",
+    "date": "2023-11-23",
+    "price": 600.0,
+    "photo": "https://aniyuki.com/wp-content/uploads/2021/12/aniyuki-sad-anime-avatar-image-32.jpg"
+  },
+  {
+    "id": "d5f0a64e-3057-4aa6-8e7a-65456e4b4a8d",
+    "name": "Ana",
+    "lastname": "Oliveira",
+    "date": "2023-04-30",
+    "price": 290.25,
+    "photo": "https://aniyuki.com/wp-content/uploads/2021/12/aniyuki-sad-anime-avatar-image-32.jpg"
+  },
+  {
+    "id": "37a6eb8a-b6c6-4b38-a17b-5212c8e60b8d",
+    "name": "Carlos",
+    "lastname": "Ribeiro",
+    "date": "2023-09-18",
+    "price": 400.0,
+    "photo": "https://aniyuki.com/wp-content/uploads/2021/12/aniyuki-sad-anime-avatar-image-32.jpg"
+  }
+]
