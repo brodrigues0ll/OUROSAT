@@ -9,15 +9,32 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
-  display: none;
+  width: 50%;
+  height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: rgb(255, 255, 255 0);
-  display: none;
+  background: rgb(255, 255, 255);
+  border-radius: 50px;
 }
 
 ::-webkit-scrollbar-thumb {
-  display: none;
+  background: #e3a224;
+  border-radius: 50px;
+}
+
+@media (max-width: 500px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+    display: none;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255 0);
+    display: none;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    display: none;
+  }
 }
