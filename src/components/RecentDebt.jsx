@@ -3,8 +3,11 @@ import React from "react";
 import people from "../../public/helpers/people.json";
 import Image from "next/image";
 import arrow from "../../public/assets/RecentDebt/arrow.svg";
+import { useRouter } from "next/router";
 
 const RecentDebt = () => {
+  const router = useRouter();
+
   return (
     <>
       <Typography
@@ -99,6 +102,9 @@ const RecentDebt = () => {
                   "&:hover": {
                     bgcolor: "#905F00",
                   },
+                }}
+                onClick={() => {
+                  router.push(`/${person.id}`);
                 }}
               >
                 <Image src={arrow} alt="arrow" width={40} height={18} />
