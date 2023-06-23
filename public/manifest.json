@@ -1,0 +1,13 @@
+{
+  "name": "Ourosat-Cesta",
+  "short_name": "Ourosat-Cesta",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "https://scontent-gig4-1.xx.fbcdn.net/v/t39.30808-6/300377457_366939452309605_971708336177416256_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFZI18xtnZB7kPGmf8wun8GwRab7bL12d_BFpvtsvXZ3_CY-DYCDbu9ZoqixqP1or9bzlf7hYvYR94bDwcbK5Lb&_nc_ohc=gm0kr3HmzhAAX_5S_BR&_nc_ht=scontent-gig4-1.xx&oh=00_AfDDekELGfDpo3mshRQXIgJUvJninirYyBgfGah_jN7wyA&oe=649AE5C3",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    }
+  ]
+}
