@@ -4,6 +4,7 @@ import people from "../../public/helpers/people.json";
 import Image from "next/image";
 import arrow from "../../public/assets/RecentDebt/arrow.svg";
 import { useRouter } from "next/router";
+import moment from "moment";
 
 const RecentDebt = () => {
   const router = useRouter();
@@ -70,9 +71,7 @@ const RecentDebt = () => {
                 color: "#777",
               }}
             >
-              {new Intl.DateTimeFormat("pt-BR", {
-                dateStyle: "short",
-              }).format(new Date(person.date))}
+              {moment(person.date).format("DD/MM/YYYY")}
             </Typography>
 
             <Box
