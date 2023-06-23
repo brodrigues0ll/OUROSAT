@@ -3,6 +3,8 @@
   "short_name": "Ourosat-Cesta",
   "start_url": "/",
   "display": "standalone",
+  "background_color": "#181818",
+  "theme_color": "#181818",
   "icons": [
     {
       "src": "/assets/LOGO-2.png",
