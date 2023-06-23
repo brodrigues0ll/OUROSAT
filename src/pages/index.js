@@ -20,7 +20,6 @@ export default function Home() {
           bgcolor: "#181818",
           borderRadius: "0px 0px 0px 40px",
           padding: "17px 10px 17px 34px",
-
           boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)",
         }}
       >
@@ -30,11 +29,7 @@ export default function Home() {
       <Box
         component="section"
         sx={{
-          bgcolor: "#EFEFEF",
-          borderRadius: "0px 0px 0px 40px",
           padding: "17px 10px 17px 34px",
-
-          // boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)",
         }}
       >
         <CurrentDebt />
