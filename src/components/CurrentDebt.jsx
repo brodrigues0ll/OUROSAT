@@ -102,6 +102,10 @@ const RecentDebt = () => {
                 height: "30px",
                 bgcolor: "#E3A224",
                 borderRadius: "20px",
+
+                "&:hover": {
+                  bgcolor: "#905F00",
+                },
               }}
             >
               <Typography
