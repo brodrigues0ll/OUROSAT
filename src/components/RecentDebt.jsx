@@ -28,6 +28,8 @@ const RecentDebt = () => {
           gap: "10px",
           overflowX: "auto",
           paddingBottom: "8px",
+          paddingLeft: "10px",
+          marginLeft: "-10px",
         }}
       >
         {people.map((person) => (
