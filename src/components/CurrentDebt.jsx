@@ -30,14 +30,23 @@ const RecentDebt = () => {
           Em Débito
         </Typography>
 
-        <Typography
+        <Button
           sx={{
-            color: "#555555",
-            fontWeight: 700,
+            textTransform: "none",
           }}
         >
-          Ver Tudo
-        </Typography>
+          <Typography
+            sx={{
+              color: "#555555",
+              fontWeight: 700,
+            }}
+            onClick={() => {
+              router.push("/alldebt");
+            }}
+          >
+            Ver Tudo
+          </Typography>
+        </Button>
       </Box>
 
       <Box
