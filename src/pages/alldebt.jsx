@@ -1,9 +1,8 @@
 import Header from "@/components/Header";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
-// import people from "../../public/helpers/people.json";
 import { Box, Button, Typography } from "@mui/material";
-import Image from "next/image";
+import moment from "moment";
 
 import {
   collection,
@@ -27,7 +26,6 @@ const alldebt = () => {
         ...doc.data(),
       }));
       setPeople(peopleData);
-      console.log(peopleData);
     });
     return unsubscribe;
   }, []);
@@ -75,13 +73,14 @@ const alldebt = () => {
               router.push(`/${person.id}`);
             }}
           >
-            <Image
-              src={person.photo}
-              alt={person.name}
-              width={60}
-              height={60}
-              style={{
-                borderRadius: "500px",
+            <Box
+              sx={{
+                backgroundImage: `url(${person.photo})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                width: "80px",
+                height: "80px",
+                borderRadius: "9999px",
               }}
             />
 
@@ -116,7 +115,7 @@ const alldebt = () => {
                   textAlign: "start",
                 }}
               >
-                {person.date}
+                {moment(person.date).format("DD/MM/YYYY")}
               </Typography>
             </Box>
           </Button>
